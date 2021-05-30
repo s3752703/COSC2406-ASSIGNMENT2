@@ -1,0 +1,3 @@
+db.Pedes_count.createIndex({Sensor_ID:1})
+db.Pedes_count.createIndex({Sensor_Name:1})
+

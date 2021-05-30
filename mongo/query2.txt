@@ -1,0 +1,1 @@
+db.Pedes_count.find({$and:[{Sensor_Name:{$gt:"A"}},{"Padestrian_item.Month":"July"},{"Padestrian_item.Hourly_Counts":{$gt:10000}}]},{"Padestrian_item.ID":1,"Padestrian_item.Hourly_Counts":1}).pretty().explain("executionStats")

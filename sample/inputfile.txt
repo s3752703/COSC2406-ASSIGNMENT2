@@ -1,0 +1,8 @@
+Initialize(3)
+Insert(21, 0.3534)
+Insert(108, 31.907)
+Insert(56089, 3.26)
+Insert(234, 121.56)
+Insert(4325, -109.23)
+Delete (108)
+Search(234)

@@ -1,0 +1,1 @@
+db.Pedes_count.explain("executionStats").distinct("Padestrian_item.ID",{"Padestrian_item.Hourly_Counts":300})
